@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'caffiene-ext';
+    src: local('caffiene-ext'),
+      url(/Khula/Khula-Regular.ttf) format('truetype');
+  }
+
+
+* {
+    box-sizing: border-box;
+    font-family: "mrc3-ui", sans-serif;
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  letter-spacing: 1.4px;
+  }
+  
+
+  .get-caffiene-container {
+    min-width: 30rem;
+    min-height: 22rem;
+  }
+  

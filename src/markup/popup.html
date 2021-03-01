@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Caffiene</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+
+<body>
+    <div class="get-caffiene-container z-100 inset-0 overflow-y-auto bg-gray-50">
+        <div class=" items-center flex justify-center min-h-screen pt-4 px-4 pb-4  sm:block sm:p-0 ">
+
+            <div class=" inline-block align-bottom bg-white rounded-sm px-4 pt-5 pb-4 text-left overflow-hidden shadow-sm transform transition-all  sm:align-middle sm:max-w-lg sm:w-full sm:p-6 "
+                role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                <div class="sm:flex sm:items-start">
+                    <div
+                        class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-yellow-700 sm:mx-0 sm:h-10 sm:w-10">
+
+                        <img class="h-6 w-6" src="/public/images/coffe.svg" />
+                    </div>
+                    <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                        <h3 id="header" class="text-lg leading-6 font-medium text-gray-900 font-semibold" id="modal-headline">
+                            Get caffiene every 10 Seconds till 7 pm
+                        </h3>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-5 ">
+                    <div class="flex flex-col  w-1/2">
+                        <label for="location" class="block text-sm font-medium text-gray-700">Duration</label>
+                        <select id="duration" name="location"
+                            class="mt-1 block w-full pl-3 pr-10 py-2 text-base rounded-sm border border-gray-300 bg-white focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm rounded-sm">
+                            <option value="5">05 Seconds</option>
+                            <option value="10" selected>10 Seconds</option>
+                            <option value="20" >20 Seconds</option>
+                            <option value="30">30 Seconds</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col  w-2/5">
+                        <label for="location" class="block text-sm font-medium text-gray-700">Time</label>
+                        <select id="time" name="location"
+                            class="mt-1 block w-full pl-3 pr-10 py-2 text-base rounded-sm border border-gray-300 bg-white focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm rounded-sm">
+                            <option value="13">1:00 pm</option>
+                            <option value="14">2:00 pm</option>
+                            <option value="15">3:00 pm</option>
+                            <option value="16">4:00 pm</option>
+                            <option value="17">5:00 pm</option>
+                            <option value="18">6:00 pm</option>
+                            <option value="19"  selected >7:00 pm</option>
+                            <option value="20">8:00 pm</option>
+                            <option value="21">9:00 pm</option>
+                            <option value="22">10:00 pm</option>
+                            <option value="23">11:00 pm</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mt-5 sm:mt-4 sm:ml-10 sm:pl-4 sm:flex">
+                    <button id="startButton" type="button"
+                        class="inline-flex justify-center w-full rounded-sm border border-transparent shadow-sm px-4 py-2 bg-yellow-700 text-base font-medium text-white hover:bg-yellow-700 focus:outline-none  sm:w-auto sm:text-sm">
+                        Start Now
+                    </button>
+                    <button id="cancelButton"  type="button"
+                        class="mt-3 w-full inline-flex justify-center rounded-sm border border-gray-300 px-4 py-2 bg-white text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        No i don't need it
+                    </button>
+                </div>
+
+                <div class="mt-3 text-right sm:mt-0 sm:ml-4 sm:text-left">
+                    <h3 class="leading-8 text-gray-900 font-medium" id="modal-headline">
+                        Made By <a class="text-indigo-800 underline" target="_blank" href="https://github.com/taniskjha">Tanisk Jha</a> 
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../script/app.js"> </script>
+</body>
+
+</html>

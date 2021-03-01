@@ -1,0 +1,20 @@
+
+{
+    "manifest_version": 2,
+  
+    "name": "Get Caffiene",
+    "description": "Keep the Display awake by refreshing",
+    "version": "1.0.0",
+
+    "browser_action": {
+        "default_popup": "/src/markup/popup.html"      
+    },
+      "background": {
+        "scripts": ["/src/script/background.js"],
+        "persistent": false
+      },
+    
+      "permissions": ["activeTab", "storage", "tabs", "http://*/", "https://*/"]
+  }
+
+
