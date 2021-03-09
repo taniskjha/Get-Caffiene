@@ -1,6 +1,6 @@
 ## Get Caffiene - Chrome Extension
 
-I made this extension to help my friend to keep his company communication software active incase of inactivity [Link](https://comingsoon.com)
+I made this extension to help my friend to keep his company communication software active incase of inactivity 
 
 ![Get Caffiene](https://user-images.githubusercontent.com/54271649/109291607-2f861d00-784f-11eb-90d2-cdd621165ffa.png)
 
